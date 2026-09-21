@@ -288,7 +288,7 @@ loginForm.addEventListener("submit", function (event) {
 
       // Wait 800ms for the success message to be visible, then redirect
       setTimeout(function () {
-        window.location.href = "index.html";
+        window.location.href = "dashboard.html";
       }, 800);
     } else if (currentPortal === "teacher") {
       loginMessage.textContent =
